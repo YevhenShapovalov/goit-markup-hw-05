@@ -210,11 +210,6 @@ transition: fill 250ms cubic-bezier(0.4,
       0,
       0.2,
       1);
-    /* transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4,
-        0,
-        0.2,
-        1); */
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -758,6 +753,42 @@ transition: background-color 250ms cubic-bezier(0.4,
     margin-bottom: 20px;
 }
 
+.subscribe-form {
+  margin-left: 70px;
+}
+.input-mail {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--background-color);
+    padding-left: 16px;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+      align-items: center;
+      letter-spacing: 0.03em;
+    
+      color: rgba(255, 255, 255, 0.6);
+}
+.sub-btn {
+  min-width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: var(--active);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+      font-size: 16px;
+      line-height: 1.88;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: var(--button-text-aktive);
+}
 /* footer logo  */
 
 .logo-address .logo {
@@ -818,7 +849,6 @@ margin-right: 70px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
-  /* transition-duration: 250ms; */
 }
 .portfolio .button-item {
   display: flex;
@@ -874,17 +904,6 @@ margin-right: 70px;
 .portfolio-item a:focus .portfolio-item-bg p{
   opacity: 1;
     transform: translateY(-100%);
-    /* transition-duration: 250ms; */
-
-
-      /* animation-name: changeopacity;
-      animation-duration: 1000ms;
-      animation-timing-function: cubic-bezier(0.4,
-        0,
-        0.2,
-        1);
-        animation-iteration-count: 1; */
-
 }
 
 .portfolio-item a {
